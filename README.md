@@ -8,7 +8,7 @@ Ziel war es, Hosting, Deployment, Domainanbindung und Sicherheit praxisnah umzus
 
 ---
 
-## 📦 Phase 1: Statische Website mit AWS S3 + CloudFront (Archiv-Version)
+## Phase 1: Statische Website mit AWS S3 + CloudFront (Archiv-Version)
 
 - Hosting über einen öffentlichen S3-Bucket mit aktivierter statischer Webhosting-Funktion
 - HTML, CSS und statische Assets direkt im S3-Bucket gespeichert
@@ -16,11 +16,11 @@ Ziel war es, Hosting, Deployment, Domainanbindung und Sicherheit praxisnah umzus
 - Heute erreichbar über:  
   🔗 [`http://s3.carstenmeyer.dev`](http://s3.carstenmeyer.dev)
 
-📁 [Phase 1 – zum Quellcode](./phase1-s3-website)
+[Phase 1 – zum Quellcode](./phase1-s3-website)
 
 ---
 
-## 🚀 Phase 2: EC2 + Nginx + HTTPS (aktives Hosting)
+## Phase 2: EC2 + Nginx + HTTPS (aktives Hosting)
 
 - Live-Hosting der Website auf einer eigenen EC2-Instanz (Ubuntu Server)
 - Manuelle Konfiguration von:
@@ -33,11 +33,11 @@ Ziel war es, Hosting, Deployment, Domainanbindung und Sicherheit praxisnah umzus
 🔗 **Live-Demo (aktuelle Version):**  
 [https://carstenmeyer.dev](https://carstenmeyer.dev)
 
-📁 [Phase 2 – zum Quellcode & Deployment](./phase2-ec2-website)
+[Phase 2 – zum Quellcode & Deployment](./phase2-ec2-website)
 
 ---
 
-## 🖼️ Screenshots aus Phase 2
+## Screenshots aus Phase 2
 
 ### Website live (HTTPS + eigene Domain)
 ![Live-Website](./phase2-ec2-website/screenshots/domain-live.png)
@@ -50,7 +50,7 @@ Ziel war es, Hosting, Deployment, Domainanbindung und Sicherheit praxisnah umzus
 
 ---
 
-## 📁 Projektstruktur
+## Projektstruktur
 
 ```bash
 aws-portfolio-hosting/

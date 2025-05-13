@@ -2,7 +2,7 @@
 
 Dieses Projekt beschreibt die Bereitstellung meiner persönlichen Portfolio-Website auf einer eigenen AWS-EC2-Instanz inklusive Domain-Anbindung und HTTPS-Absicherung.
 
-## 🔧 Tech-Stack
+## Tech-Stack
 
 - **AWS EC2 (Ubuntu 22.04 LTS)**
 - **Nginx**
@@ -11,16 +11,16 @@ Dieses Projekt beschreibt die Bereitstellung meiner persönlichen Portfolio-Webs
 - **Namecheap Domain**
 - **Linux (SSH, SCP, Dateirechte etc.)**
 
-## 🌍 Live-Demo
+## Live-Demo
 
 - 🔗 [https://carstenmeyer.dev](https://carstenmeyer.dev)
 
-## 🧱 Projektstruktur (lokal)
+## Projektstruktur (lokal)
 
 /phase2-ec2-website ├── index.html ├── style.css ├── images/ ├── screenshots ├── README.md
 
 
-## ✅ Umsetzungsschritte
+## Umsetzungsschritte
 
 1. EC2-Instanz im AWS Free Tier gestartet (Ubuntu 22.04)
 2. Nginx installiert und konfiguriert
@@ -31,7 +31,7 @@ Dieses Projekt beschreibt die Bereitstellung meiner persönlichen Portfolio-Webs
 7. HTTPS-Redirect aktiviert
 8. Projekt dokumentiert und auf GitHub veröffentlicht
 
-## 🖼️ Screenshots
+## Screenshots
 
 ### Live-Website
 ![Live-Demo](./screenshots/domain-live.png)
@@ -42,11 +42,11 @@ Dieses Projekt beschreibt die Bereitstellung meiner persönlichen Portfolio-Webs
 ### Security Group
 ![Security Group](./screenshots/security-group.png)
 
-## 📁 Optional: Subdomain-Archiv (Phase 1)
+## Optional: Subdomain-Archiv (Phase 1)
 
 - 🔗 `http://s3.carstenmeyer.dev` *(ehemalige statische S3-Version, jetzt als Archiv)*
 
-## 📌 Autor
+## Autor
 
 **Carsten Meyer**  
 [carstenmeyer.dev](https://carstenmeyer.dev)
